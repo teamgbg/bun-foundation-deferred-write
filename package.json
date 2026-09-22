@@ -1,0 +1,72 @@
+{
+  "_generated": {
+    "system": "package-json@1.0.0",
+    "status": "generated",
+    "edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+  },
+  "name": "@teamscala/deferred-write",
+  "capability": "Hot-path-safe batched write surface. THE canonical answer per constitution deferred-write-is-the-write-pattern.",
+  "tier": "foundation",
+  "type": "module",
+  "version": "0.1.4",
+  "description": "Hot-path-safe batched write surface. THE canonical answer per constitution deferred-write-is-the-write-pattern.",
+  "imports": {
+    "#deferred-write/*": "./src/*",
+    "#deferred-write/*.ts": "./src/*.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bun-types": "*",
+    "@happy-dom/global-registrator": "*",
+    "@testing-library/react": "*"
+  },
+  "exports": {
+    "./configure": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./configure.ts": {
+      "types": "./src/configure.d.ts",
+      "default": "./src/configure.ts"
+    },
+    "./create-deferred-writer": {
+      "types": "./src/create-deferred-writer.d.ts",
+      "default": "./src/create-deferred-writer.ts"
+    },
+    "./create-deferred-writer.ts": {
+      "types": "./src/create-deferred-writer.d.ts",
+      "default": "./src/create-deferred-writer.ts"
+    },
+    "./deferred-writer": {
+      "types": "./src/deferred-writer.d.ts",
+      "default": "./src/deferred-writer.ts"
+    },
+    "./deferred-writer.ts": {
+      "types": "./src/deferred-writer.d.ts",
+      "default": "./src/deferred-writer.ts"
+    },
+    "./registry": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./registry.ts": {
+      "types": "./src/registry.d.ts",
+      "default": "./src/registry.ts"
+    },
+    "./types": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    },
+    "./types.ts": {
+      "types": "./src/types.d.ts",
+      "default": "./src/types.ts"
+    }
+  },
+  "repository": "https://github.com/teamgbg/bun-foundation-deferred-write",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
